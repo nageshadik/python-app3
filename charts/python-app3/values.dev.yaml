@@ -2,4 +2,4 @@ replicaCount: 1
 image:
   repository: adinagesh/python-app3
   pullPolicy: IfNotPresent
-  tag: python-app3-dev-latest
+  tag: 584e02
