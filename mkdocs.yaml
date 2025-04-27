@@ -1,0 +1,15 @@
+site_name: 'python-app3'
+site_description: 'Main documentation for python-app3'
+repo_url: https://github.com/adi-nagesh/python-app3
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  - redirects:
+      redirect_maps:
+        'index.md': 'docs/index.md'
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
